@@ -1,1 +1,213 @@
-test page
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>frncsrr / Futuristic Apps</title>
+    <style>
+      :root {
+        color-scheme: dark;
+        --bg: radial-gradient(circle at 20% 20%, #10324d, #05060a 60%);
+        --text: #eff8ff;
+        --muted: rgba(239, 248, 255, 0.65);
+        --accent: #3b82f6;
+        --accent-soft: rgba(59, 130, 246, 0.2);
+        --card: rgba(16, 28, 46, 0.75);
+        font-family: "SF Pro Display", "Segoe UI", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        min-height: 100vh;
+        background: var(--bg);
+        color: var(--text);
+        padding: 0 1.5rem 4rem;
+      }
+      header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1.25rem 0;
+      }
+      .brand {
+        font-weight: 600;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+      }
+      nav a {
+        margin-left: 1rem;
+        text-decoration: none;
+        color: var(--muted);
+        font-size: 0.95rem;
+        transition: color 0.2s ease;
+      }
+      nav a:hover,
+      nav a:focus-visible {
+        color: var(--text);
+      }
+      main {
+        max-width: 960px;
+        margin: 0 auto;
+      }
+      .hero {
+        padding: 4rem 0 2.5rem;
+      }
+      .hero h1 {
+        font-size: clamp(2.4rem, 6vw, 3.7rem);
+        line-height: 1.1;
+        margin: 0 0 1rem;
+      }
+      .hero p {
+        color: var(--muted);
+        font-size: 1.1rem;
+        margin: 0 0 2rem;
+      }
+      .cta {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.6rem;
+        background: linear-gradient(135deg, #38bdf8, #6366f1);
+        color: #020617;
+        border: none;
+        border-radius: 999px;
+        padding: 0.85rem 1.75rem;
+        font-weight: 600;
+        text-decoration: none;
+        box-shadow: 0 10px 25px rgba(59, 130, 246, 0.3);
+      }
+      .cta span {
+        font-size: 1.2rem;
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 1.25rem;
+        margin: 3rem 0;
+      }
+      .card {
+        background: var(--card);
+        border: 1px solid rgba(59, 130, 246, 0.35);
+        border-radius: 1rem;
+        padding: 1.5rem;
+        backdrop-filter: blur(10px);
+      }
+      .card h3 {
+        margin: 0 0 0.8rem;
+        font-size: 1.2rem;
+      }
+      .card p {
+        margin: 0;
+        color: var(--muted);
+        font-size: 0.95rem;
+      }
+      .status {
+        border-radius: 1rem;
+        padding: 2rem;
+        background: var(--card);
+        border: 1px solid var(--accent-soft);
+      }
+      .status h2 {
+        margin: 0 0 1rem;
+      }
+      .status ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+      .status li {
+        margin-bottom: 0.75rem;
+        padding-left: 1.5rem;
+        position: relative;
+        color: var(--muted);
+      }
+      .status li::before {
+        content: "";
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background: var(--accent);
+        position: absolute;
+        left: 0;
+        top: 0.45rem;
+        box-shadow: 0 0 8px var(--accent);
+      }
+      footer {
+        margin-top: 4rem;
+        padding: 2rem 0 1rem;
+        font-size: 0.9rem;
+        color: var(--muted);
+        border-top: 1px solid rgba(255, 255, 255, 0.08);
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        justify-content: space-between;
+        align-items: center;
+      }
+      footer a {
+        color: var(--text);
+        text-decoration: none;
+      }
+      @media (max-width: 640px) {
+        header {
+          flex-direction: column;
+          gap: 0.5rem;
+        }
+        nav a {
+          margin-left: 0.5rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="brand">frncsrr</div>
+      <nav>
+        <a href="#features">Features</a>
+        <a href="#status">Stream</a>
+        <a href="docs_privacy.html">Privacy</a>
+      </nav>
+    </header>
+    <main>
+      <section class="hero">
+        <h1>Futuristic apps engineered by frncsrr.</h1>
+        <p>frncsrr works on experimental, forward-looking experiences with privacy baked in from day one. Every build focuses on minimal friction, high trust, and zero unnecessary data exhaust.</p>
+        <a class="cta" href="docs_privacy.html">
+          <span>›</span>
+          Read privacy brief
+        </a>
+      </section>
+
+      <section id="features">
+        <div class="grid">
+          <article class="card">
+            <h3>Instant refresh</h3>
+            <p>Continuous iteration pushes fresh concepts rapidly, keeping prototypes and releases ahead of the curve.</p>
+          </article>
+          <article class="card">
+            <h3>Anonymous first</h3>
+            <p>No persistent identifiers, no fingerprinting. Aggregated telemetry only when essential.</p>
+          </article>
+          <article class="card">
+            <h3>Verified payloads</h3>
+            <p>End-to-end signing and integrity checks guard every binary from tampering or unauthorized swaps.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="status" class="status">
+        <h2>Build stream</h2>
+        <ul>
+          <li>Latest experimental builds staged for early testers via private feeds</li>
+          <li>Automated signing workflow running 24/7 with redundant checks</li>
+          <li>Privacy audit logs verified to contain zero personal data</li>
+        </ul>
+      </section>
+    </main>
+    <footer>
+      <span>© frncsrr</span>
+      <a href="mailto:francisairry@proton.me">francisairry@proton.me</a>
+    </footer>
+  </body>
+</html>
