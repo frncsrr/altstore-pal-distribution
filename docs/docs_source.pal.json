@@ -1,0 +1,17 @@
+{
+  "name": "AltStore PAL Distribution",
+  "bundleIdentifier": "com.frncsrr.altstore.pal",
+  "version": "1.0.0",
+  "title": "AltStore PAL Source",
+  "author": "frncsrr",
+  "url": "https://frncsrr.github.io/altstore-pal-distribution/",
+  "icons": {
+    "app": "icons/app.png",
+    "source": "icons/source.png"
+  },
+  "screenshots": [
+    "screenshots/1.png",
+    "screenshots/2.png"
+  ],
+  "privacy": "privacy.html"
+}
