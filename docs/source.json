@@ -1,15 +1,24 @@
 {
-  "name": "AltStore PAL Distribution",
-  "identifier": "io.altstore.source.frncsrr",
+  "name": "EasyFocuser",
+  "iconURL": "https://frncsrr.github.io/altstore-pal-distribution/icons/1024.png",
   "apps": [
     {
       "name": "EasyFocuser",
       "bundleIdentifier": "LBkjfBej23DkaFr",
       "developerName": "EasyFocuser",
+      "marketplaceID": "6756961247",
+      "localizedDescription": "This app provides a simple way to browse and view real estate information from major cities around the world. Users can save favorites and review previously viewed items through a history feature.",
+      "iconURL": "https://frncsrr.github.io/altstore-pal-distribution/icons/1024.png",
+      "tintColor": "#4532f5",
+      "category": "utilities",
       "versions": [
         {
-          "version": "1.0.0",
-          "buildVersion": "1",
+          "version": "1",
+          "buildVersion": "221",
+          "date": "2026-01-06T09:00:00+09:00",
+          "localizedDescription": "Release v1",
+          "size": 47400000,
+          "minOSVersion": "26.2",
           "downloadURL": "https://github.com/frncsrr/altstore-pal-distribution/releases/download/v1-221/manifest.json",
           "assetURLs": {
             "manifest": "https://github.com/frncsrr/altstore-pal-distribution/releases/download/v1-221/manifest.json",
@@ -21,7 +30,15 @@
             "bf2d6713-0690-3b92-ae6f-42d491714ff9": "https://github.com/frncsrr/altstore-pal-distribution/releases/download/v1-221/bf2d6713-0690-3b92-ae6f-42d491714ff9.ipa"
           }
         }
-      ]
+      ],
+      "appPermissions": {
+          "entitlements": [
+          ],
+          "privacy": {
+              "NSMicrophoneUsageDescription": "Microphone access allows real-time voice communication.",
+              "NSCameraUsageDescription": "Camera access enables you to capture and share photos directly within conversations for seamless communication."
+          }
+      }
     }
   ]
 }
