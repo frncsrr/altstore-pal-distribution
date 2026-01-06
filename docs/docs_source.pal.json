@@ -1,17 +1,27 @@
 {
   "name": "AltStore PAL Distribution",
-  "bundleIdentifier": "com.frncsrr.altstore.pal",
-  "version": "1.0.0",
-  "title": "AltStore PAL Source",
-  "author": "frncsrr",
-  "url": "https://frncsrr.github.io/altstore-pal-distribution/",
-  "icons": {
-    "app": "icons/app.png",
-    "source": "icons/source.png"
-  },
-  "screenshots": [
-    "screenshots/1.png",
-    "screenshots/2.png"
-  ],
-  "privacy": "privacy.html"
+  "identifier": "io.altstore.source.frncsrr",
+  "apps": [
+    {
+      "name": "EasyFocuser",
+      "bundleIdentifier": "LBkjfBej23DkaFr",
+      "developerName": "EasyFocuser",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "buildVersion": "1",
+          "downloadURL": "https://github.com/frncsrr/altstore-pal-distribution/releases/download/v1-221/manifest.json",
+          "assetURLs": {
+            "manifest": "https://github.com/frncsrr/altstore-pal-distribution/releases/download/v1-221/manifest.json",
+            "signature": "https://github.com/frncsrr/altstore-pal-distribution/releases/download/v1-221/signature",
+
+            "47f62b33-6b14-3fdb-be4c-69a78461665d": "https://github.com/frncsrr/altstore-pal-distribution/releases/download/v1-221/47f62b33-6b14-3fdb-be4c-69a78461665d.ipa",
+            "93708f41-1fe5-3a04-bfe3-78bf75fbeaff": "https://github.com/frncsrr/altstore-pal-distribution/releases/download/v1-221/93708f41-1fe5-3a04-bfe3-78bf75fbeaff.ipa",
+            "a300697e-535d-3df2-a8a8-70480d2af0a6": "https://github.com/frncsrr/altstore-pal-distribution/releases/download/v1-221/a300697e-535d-3df2-a8a8-70480d2af0a6.ipa",
+            "bf2d6713-0690-3b92-ae6f-42d491714ff9": "https://github.com/frncsrr/altstore-pal-distribution/releases/download/v1-221/bf2d6713-0690-3b92-ae6f-42d491714ff9.ipa"
+          }
+        }
+      ]
+    }
+  ]
 }
