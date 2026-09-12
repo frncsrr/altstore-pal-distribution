@@ -13,6 +13,27 @@
       "category": "utilities",
       "versions": [
         {
+          "version": "10",
+          "buildVersion": "1",
+          "date": "2026-09-13T01:14:05+09:00",
+          "localizedDescription": "Release v10-1",
+          "size": 21106106,
+          "minOSVersion": "26",
+          "downloadURL": "https://github.com/frncsrr/altstore-pal-distribution/releases/download/v10-1/manifest.json",
+          "assetURLs": {
+            "manifest": "https://github.com/frncsrr/altstore-pal-distribution/releases/download/v10-1/manifest.json",
+            "signature": "https://github.com/frncsrr/altstore-pal-distribution/releases/download/v10-1/signature",
+            "0095ac08-ca0f-39d4-ad67-ebdacdef9181": "https://github.com/frncsrr/altstore-pal-distribution/releases/download/v10-1/0095ac08-ca0f-39d4-ad67-ebdacdef9181.ipa",
+            "56f7abc7-1797-32f9-bbb3-c70c036c26a2": "https://github.com/frncsrr/altstore-pal-distribution/releases/download/v10-1/56f7abc7-1797-32f9-bbb3-c70c036c26a2.ipa",
+            "6db5863b-6cc2-3b44-96a6-32e71b2bd70b": "https://github.com/frncsrr/altstore-pal-distribution/releases/download/v10-1/6db5863b-6cc2-3b44-96a6-32e71b2bd70b.ipa",
+            "d0cb10c6-55f3-3315-b674-e105755d2838": "https://github.com/frncsrr/altstore-pal-distribution/releases/download/v10-1/d0cb10c6-55f3-3315-b674-e105755d2838.ipa",
+            "29f759a3-5f16-32f3-b0be-62bc012fffed": "https://github.com/frncsrr/altstore-pal-distribution/releases/download/v10-1/29f759a3-5f16-32f3-b0be-62bc012fffed.ipa",
+            "84226720-7810-33c1-a3e5-9d00a2349e45": "https://github.com/frncsrr/altstore-pal-distribution/releases/download/v10-1/84226720-7810-33c1-a3e5-9d00a2349e45.ipa",
+            "9ed9c702-29ed-3a77-9d10-9813024a62a7": "https://github.com/frncsrr/altstore-pal-distribution/releases/download/v10-1/9ed9c702-29ed-3a77-9d10-9813024a62a7.ipa",
+            "fb0be1fa-ffaa-3c56-9f17-3f09c0c025be": "https://github.com/frncsrr/altstore-pal-distribution/releases/download/v10-1/fb0be1fa-ffaa-3c56-9f17-3f09c0c025be.ipa"
+          }
+        },
+        {
           "version": "9",
           "buildVersion": "1",
           "date": "2026-06-27T18:01:14+09:00",
