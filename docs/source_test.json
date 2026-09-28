@@ -13,6 +13,31 @@
       "category": "utilities",
       "versions": [
         {
+          "version": "11",
+          "buildVersion": "2",
+          "date": "2026-09-29T01:37:17+09:00",
+          "localizedDescription": "Release v11-2",
+          "size": 20860915,
+          "minOSVersion": "26",
+          "downloadURL": "https://github.com/frncsrr/altstore-pal-distribution/releases/download/v11-2/manifest.json",
+          "assetURLs": {
+            "manifest": "https://github.com/frncsrr/altstore-pal-distribution/releases/download/v11-2/manifest.json",
+            "signature": "https://github.com/frncsrr/altstore-pal-distribution/releases/download/v11-2/signature",
+            "2ca4ae1a-fd2f-3a72-a87d-bc0d10bb026f": "https://github.com/frncsrr/altstore-pal-distribution/releases/download/v11-2/2ca4ae1a-fd2f-3a72-a87d-bc0d10bb026f.ipa",
+            "35255de1-0464-329a-8734-5d935a2c1387": "https://github.com/frncsrr/altstore-pal-distribution/releases/download/v11-2/35255de1-0464-329a-8734-5d935a2c1387.ipa",
+            "c70220f0-f438-35ec-acea-1187a95237fd": "https://github.com/frncsrr/altstore-pal-distribution/releases/download/v11-2/c70220f0-f438-35ec-acea-1187a95237fd.ipa",
+            "f18dd4d4-307c-3b81-973e-8cd0910bfe17": "https://github.com/frncsrr/altstore-pal-distribution/releases/download/v11-2/f18dd4d4-307c-3b81-973e-8cd0910bfe17.ipa",
+            "14b5d1f6-a7e3-3f72-9e5a-57a233fb534f": "https://github.com/frncsrr/altstore-pal-distribution/releases/download/v11-2/14b5d1f6-a7e3-3f72-9e5a-57a233fb534f.ipa",
+            "281316f8-96d5-3aa1-87ef-6b454d08b87c": "https://github.com/frncsrr/altstore-pal-distribution/releases/download/v11-2/281316f8-96d5-3aa1-87ef-6b454d08b87c.ipa",
+            "3161235d-7385-346b-afeb-223b1ef12086": "https://github.com/frncsrr/altstore-pal-distribution/releases/download/v11-2/3161235d-7385-346b-afeb-223b1ef12086.ipa",
+            "501fbf88-a073-386c-815a-33d8f64ae5cd": "https://github.com/frncsrr/altstore-pal-distribution/releases/download/v11-2/501fbf88-a073-386c-815a-33d8f64ae5cd.ipa",
+            "61874ff0-6dcf-30a9-a40e-08b16e950820": "https://github.com/frncsrr/altstore-pal-distribution/releases/download/v11-2/61874ff0-6dcf-30a9-a40e-08b16e950820.ipa",
+            "8754e4c0-2295-3184-9042-5ce6f9f69505": "https://github.com/frncsrr/altstore-pal-distribution/releases/download/v11-2/8754e4c0-2295-3184-9042-5ce6f9f69505.ipa",
+            "af8d0975-f76b-3ec1-bd80-26ab9c692bc1": "https://github.com/frncsrr/altstore-pal-distribution/releases/download/v11-2/af8d0975-f76b-3ec1-bd80-26ab9c692bc1.ipa",
+            "fe93da1f-78af-3408-a7ad-7ef7ed3bb730": "https://github.com/frncsrr/altstore-pal-distribution/releases/download/v11-2/fe93da1f-78af-3408-a7ad-7ef7ed3bb730.ipa"
+          }
+        },
+        {
           "version": "10",
           "buildVersion": "1",
           "date": "2026-09-13T01:14:05+09:00",
