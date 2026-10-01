@@ -15,7 +15,7 @@
         {
           "version": "12",
           "buildVersion": "4",
-          "date": "2026-10-02T00:06:12+09:00",
+          "date": "2026-10-02T00:41:30+09:00",
           "localizedDescription": "Release v12-4",
           "size": 22465977,
           "minOSVersion": "26",
@@ -36,7 +36,9 @@
             "9240eeee-4aa8-3926-bf1d-791184a345a5": "https://github.com/frncsrr/altstore-pal-distribution/releases/download/v12-4/9240eeee-4aa8-3926-bf1d-791184a345a5.ipa",
             "a21e4963-c7c7-39e9-9e9f-493057294036": "https://github.com/frncsrr/altstore-pal-distribution/releases/download/v12-4/a21e4963-c7c7-39e9-9e9f-493057294036.ipa",
             "c2c0b61b-9f4c-38f9-8f7f-76171febae67": "https://github.com/frncsrr/altstore-pal-distribution/releases/download/v12-4/c2c0b61b-9f4c-38f9-8f7f-76171febae67.ipa",
-            "c730fa1c-926b-3d40-a9df-5ce13026bc8e": "https://github.com/frncsrr/altstore-pal-distribution/releases/download/v12-4/c730fa1c-926b-3d40-a9df-5ce13026bc8e.ipa"
+            "c730fa1c-926b-3d40-a9df-5ce13026bc8e": "https://github.com/frncsrr/altstore-pal-distribution/releases/download/v12-4/c730fa1c-926b-3d40-a9df-5ce13026bc8e.ipa",
+            "c775d6d8-3319-3f85-8b27-0c92344de10a": "https://github.com/frncsrr/altstore-pal-distribution/releases/download/v12-4/c775d6d8-3319-3f85-8b27-0c92344de10a.ipa",
+            "f8f5e0c0-847a-32e0-819a-9f2698bdff89": "https://github.com/frncsrr/altstore-pal-distribution/releases/download/v12-4/f8f5e0c0-847a-32e0-819a-9f2698bdff89.ipa"
           }
         },
         {
@@ -96,7 +98,6 @@
           "assetURLs": {
             "manifest": "https://github.com/frncsrr/altstore-pal-distribution/releases/download/v9-1/manifest.json",
             "signature": "https://github.com/frncsrr/altstore-pal-distribution/releases/download/v9-1/signature",
-
             "070eb889-ae64-3bdf-ab78-2f52f7d5ddb2": "https://github.com/frncsrr/altstore-pal-distribution/releases/download/v9-1/070eb889-ae64-3bdf-ab78-2f52f7d5ddb2.ipa",
             "10b0e111-e4f9-3366-9b4c-388dd34f91af": "https://github.com/frncsrr/altstore-pal-distribution/releases/download/v9-1/10b0e111-e4f9-3366-9b4c-388dd34f91af.ipa",
             "2a854d5b-01ac-3f11-a1e7-50ad999f44b6": "https://github.com/frncsrr/altstore-pal-distribution/releases/download/v9-1/2a854d5b-01ac-3f11-a1e7-50ad999f44b6.ipa",
@@ -126,7 +127,6 @@
           "assetURLs": {
             "manifest": "https://github.com/frncsrr/altstore-pal-distribution/releases/download/v8-1/manifest.json",
             "signature": "https://github.com/frncsrr/altstore-pal-distribution/releases/download/v8-1/signature",
-
             "29b73189-8754-3aa5-9454-66e12312a582": "https://github.com/frncsrr/altstore-pal-distribution/releases/download/v8-1/29b73189-8754-3aa5-9454-66e12312a582.ipa",
             "608f5270-2661-38da-966a-25fa43802296": "https://github.com/frncsrr/altstore-pal-distribution/releases/download/v8-1/608f5270-2661-38da-966a-25fa43802296.ipa",
             "649844f4-db49-3c92-a744-b211d646cea6": "https://github.com/frncsrr/altstore-pal-distribution/releases/download/v8-1/649844f4-db49-3c92-a744-b211d646cea6.ipa",
@@ -152,12 +152,10 @@
           "assetURLs": {
             "manifest": "https://github.com/frncsrr/altstore-pal-distribution/releases/download/v6-2/manifest.json",
             "signature": "https://github.com/frncsrr/altstore-pal-distribution/releases/download/v6-2/signature",
-
             "0d6bf058-e470-347b-8172-acc560697366": "https://github.com/frncsrr/altstore-pal-distribution/releases/download/v6-2/0d6bf058-e470-347b-8172-acc560697366.ipa",
             "ca0632cf-53a8-3867-861f-2c18fe34fb5e": "https://github.com/frncsrr/altstore-pal-distribution/releases/download/v6-2/ca0632cf-53a8-3867-861f-2c18fe34fb5e.ipa",
             "2cb9d4b3-a0fd-305f-83a7-710e8ad3a86a": "https://github.com/frncsrr/altstore-pal-distribution/releases/download/v6-2/2cb9d4b3-a0fd-305f-83a7-710e8ad3a86a.ipa",
             "d4b045e1-731c-3221-a0df-378dabf03b7d": "https://github.com/frncsrr/altstore-pal-distribution/releases/download/v6-2/d4b045e1-731c-3221-a0df-378dabf03b7d.ipa",
-
             "88169df5-0485-3171-862c-4f21c7a8339f": "https://github.com/frncsrr/altstore-pal-distribution/releases/download/v6-2/88169df5-0485-3171-862c-4f21c7a8339f.ipa",
             "aa1deacc-ce6a-3d45-ae78-77dc7080cda8": "https://github.com/frncsrr/altstore-pal-distribution/releases/download/v6-2/aa1deacc-ce6a-3d45-ae78-77dc7080cda8.ipa",
             "4fc24ff7-b7ec-39f1-ae00-8715d4f36691": "https://github.com/frncsrr/altstore-pal-distribution/releases/download/v6-2/4fc24ff7-b7ec-39f1-ae00-8715d4f36691.ipa",
@@ -179,12 +177,10 @@
           "assetURLs": {
             "manifest": "https://github.com/frncsrr/altstore-pal-distribution/releases/download/v2-2/manifest.json",
             "signature": "https://github.com/frncsrr/altstore-pal-distribution/releases/download/v2-2/signature",
-
             "55328180-55c6-355a-9ba1-63405aee6d99": "https://github.com/frncsrr/altstore-pal-distribution/releases/download/v2-2/55328180-55c6-355a-9ba1-63405aee6d99.ipa",
             "8a7e35ed-8839-3926-9b43-05af25f52a7d": "https://github.com/frncsrr/altstore-pal-distribution/releases/download/v2-2/8a7e35ed-8839-3926-9b43-05af25f52a7d.ipa",
             "12ec9fdb-b34b-3ff5-a472-5cda0defec3a": "https://github.com/frncsrr/altstore-pal-distribution/releases/download/v2-2/12ec9fdb-b34b-3ff5-a472-5cda0defec3a.ipa",
             "99a36e8c-67b8-365d-b05c-535590ccebc5": "https://github.com/frncsrr/altstore-pal-distribution/releases/download/v2-2/99a36e8c-67b8-365d-b05c-535590ccebc5.ipa",
-
             "54688942-a160-3542-9550-a116b6401ef5": "https://github.com/frncsrr/altstore-pal-distribution/releases/download/v2-2/54688942-a160-3542-9550-a116b6401ef5.ipa",
             "f3077b7d-f243-3cc5-bcf1-d4efdbd231be": "https://github.com/frncsrr/altstore-pal-distribution/releases/download/v2-2/f3077b7d-f243-3cc5-bcf1-d4efdbd231be.ipa",
             "c3b61418-47e0-3b99-978b-ab7844d5f5c9": "https://github.com/frncsrr/altstore-pal-distribution/releases/download/v2-2/c3b61418-47e0-3b99-978b-ab7844d5f5c9.ipa",
@@ -202,7 +198,6 @@
           "assetURLs": {
             "manifest": "https://github.com/frncsrr/altstore-pal-distribution/releases/download/v1-221/manifest.json",
             "signature": "https://github.com/frncsrr/altstore-pal-distribution/releases/download/v1-221/signature",
-
             "47f62b33-6b14-3fdb-be4c-69a78461665d": "https://github.com/frncsrr/altstore-pal-distribution/releases/download/v1-221/47f62b33-6b14-3fdb-be4c-69a78461665d.ipa",
             "93708f41-1fe5-3a04-bfe3-78bf75fbeaff": "https://github.com/frncsrr/altstore-pal-distribution/releases/download/v1-221/93708f41-1fe5-3a04-bfe3-78bf75fbeaff.ipa",
             "a300697e-535d-3df2-a8a8-70480d2af0a6": "https://github.com/frncsrr/altstore-pal-distribution/releases/download/v1-221/a300697e-535d-3df2-a8a8-70480d2af0a6.ipa",
@@ -211,13 +206,13 @@
         }
       ],
       "appPermissions": {
-          "entitlements": [
-            "com.apple.security.application-groups"
-          ],
-          "privacy": {
-              "NSMicrophoneUsageDescription": "Microphone access allows real-time voice communication.",
-              "NSCameraUsageDescription": "Camera access enables you to capture and share photos directly within conversations for seamless communication."
-          }
+        "entitlements": [
+          "com.apple.security.application-groups"
+        ],
+        "privacy": {
+          "NSMicrophoneUsageDescription": "Microphone access allows real-time voice communication.",
+          "NSCameraUsageDescription": "Camera access enables you to capture and share photos directly within conversations for seamless communication."
+        }
       }
     }
   ]
